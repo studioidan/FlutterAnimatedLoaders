@@ -1,6 +1,6 @@
-# flutter_animated_loaders
+# flutter animated loaders
 
-Amazing animated loaders for flutter developers
+>Amazing animated loaders for flutter developers
 
 ## Getting Started
 
