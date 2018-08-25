@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new MyHomePage(title: 'Flutter Demo Home Page'),
+      home: new MyHomePage(title: 'Flutter Animated Loaders'),
     );
   }
 }
@@ -39,7 +39,22 @@ class _MyHomePageState extends State<MyHomePage> {
           FlutterLoaders.pulse(
               Icon(
                 Icons.android,
-                color: Colors.blue,
+                color: Colors.green,
+                size: 40.0,
+              ),
+              Colors.green),
+          FlutterLoaders.pulse(
+              Icon(
+                Icons.android,
+                color: Colors.green,
+                size: 40.0,
+              ),
+              Colors.green),
+          FlutterLoaders.pulse(
+              Icon(
+                Icons.android,
+                color: Colors.green,
+                size: 40.0,
               ),
               Colors.green),
         ],
