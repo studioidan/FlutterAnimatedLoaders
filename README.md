@@ -5,7 +5,7 @@
 
 ## Preview
 
-<img src="https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/screen.gif" width="240px" height="240px"/>
+<img src="https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/screen.gif" width="240px" height="740px"/>
 
 ## Getting Started
 
