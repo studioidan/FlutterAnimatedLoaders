@@ -7,6 +7,21 @@
 
 <img src="https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/screen.gif" width="340px" />
 
+# How to use
+ 1. Add this to your package's pubspec.yaml file:
+
+````dart
+dependencies:
+  flutter_animated_loaders: ^0.0.2
+  ````
+  
+ 2. Add this import to your dart file:
+
+````dart
+import 'package:flutter_animated_loaders/flutter_animated_loaders.dart';
+  ````
+  
+
 ## Getting Started
 
 For help getting started with Flutter, view our online [documentation](https://flutter.io/).
