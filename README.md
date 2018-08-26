@@ -23,7 +23,17 @@ import 'package:flutter_animated_loaders/flutter_animated_loaders.dart';
 
  3. Select your favorite loader and add it as a widget!
  you can customise it however you like!
- this table will make your life mutch easier...
+ 
+ ````dart
+ FlutterLoaders.pulse(
+              Icon(
+                Icons.android,
+                color: Colors.green,
+                size: 40.0,
+              )
+  ````
+ 
+ ## this table will make your life mutch easier...
 
 
 Style | Preview
