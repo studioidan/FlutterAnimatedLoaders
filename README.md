@@ -30,7 +30,8 @@ import 'package:flutter_animated_loaders/flutter_animated_loaders.dart';
                 Icons.android,
                 color: Colors.green,
                 size: 40.0,
-              )
+              ),
+              Colors.green)
   ````
  
  ## this table will make your life mutch easier...
