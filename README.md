@@ -2,6 +2,11 @@
 
 >Amazing animated loaders for flutter developers
 
+
+## Preview
+
+<img src="https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/screen.gif" width="240px" height="240px"/>
+
 ## Getting Started
 
 For help getting started with Flutter, view our online [documentation](https://flutter.io/).
