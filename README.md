@@ -44,7 +44,7 @@ Preview | Loader name
 <img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/bars.gif' alt='Bars' width="90px" height="90px"/>  | Bars 
 <img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/ping_pong.gif' alt='PingPong' width="90px" height="90px"/>  | PingPong 
 <img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/four_balls.gif' alt='Four Balls' width="90px" height="90px"/>  | FourBalls 
-<img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/zig_zag.gif' alt='ZigZag' width="90px" height="90px"/>  | ZigZag 
+<img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/zigzag.gif' alt='ZigZag' width="90px" height="90px"/>  | ZigZag 
 
 
 
