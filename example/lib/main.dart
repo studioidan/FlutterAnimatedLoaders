@@ -38,25 +38,17 @@ class _MyHomePageState extends State<MyHomePage> {
         children: <Widget>[
           FlutterLoaders.pulse(
               Icon(
-                Icons.android,
+                Icons.check_circle,
                 color: Colors.green,
-                size: 40.0,
+                size: 50.0,
               ),
               Colors.green),
-          FlutterLoaders.pulse(
-              Icon(
-                Icons.android,
-                color: Colors.green,
-                size: 40.0,
-              ),
-              Colors.green),
-          FlutterLoaders.pulse(
-              Icon(
-                Icons.android,
-                color: Colors.green,
-                size: 40.0,
-              ),
-              Colors.green),
+          FlutterLoaders.blinkingEyes(60.0, Colors.deepOrange),
+          FlutterLoaders.bars(60.0, Colors.deepOrange),
+          FlutterLoaders.pingPong(60.0, Colors.deepOrange),
+          FlutterLoaders.fourBalls(
+              Colors.blue, Colors.green, Colors.red, Colors.yellow),
+          FlutterLoaders.zigZag(100.0, Colors.blue, Colors.green),
         ],
       )),
     );

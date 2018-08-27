@@ -4,11 +4,11 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class BlinkingEyes extends StatefulWidget {
-  final height;
+  final size;
   final color;
   final duration = 200;
 
-  BlinkingEyes(this.height, this.color);
+  BlinkingEyes(this.size, this.color);
 
   @override
   BlinkingEyesState createState() => new BlinkingEyesState();
@@ -45,12 +45,12 @@ class BlinkingEyesState extends State<BlinkingEyes>
 
   @override
   Widget build(BuildContext context) {
-    double circleSize = widget.height * 0.4;
+    double circleSize = widget.size * 0.4;
 
     return new Center(
       child: new Container(
-        height: widget.height,
-        width: widget.height,
+        height: widget.size,
+        width: widget.size,
         // decoration: new BoxDecoration(color: Colors.blueGrey),
         child: new Center(
             child: RotatedBox(
