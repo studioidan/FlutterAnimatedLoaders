@@ -39,12 +39,12 @@ class _MyHomePageState extends State<MyHomePage> {
           FlutterLoaders.pulse(
               Icon(
                 Icons.check_circle,
-                color: Colors.green,
+                color: Colors.blue,
                 size: 50.0,
               ),
-              Colors.green),
-          FlutterLoaders.blinkingEyes(60.0, Colors.deepOrange),
-          FlutterLoaders.bars(60.0, Colors.deepOrange),
+              Colors.blue),
+          FlutterLoaders.blinkingEyes(60.0, Colors.black26),
+          FlutterLoaders.bars(60.0, Colors.red),
           FlutterLoaders.pingPong(60.0, Colors.deepOrange),
           FlutterLoaders.fourBalls(
               Colors.blue, Colors.green, Colors.red, Colors.yellow),
