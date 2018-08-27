@@ -40,8 +40,8 @@ import 'package:flutter_animated_loaders/flutter_animated_loaders.dart';
 Preview | Loader name
 ------------     |   -------------   
 <img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/pulse.gif' alt='Pulse' width="90px" height="90px"/>  | Pulse    
-<img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/pulse.gif' alt='Pulse' width="90px" height="90px"/>  | Pulse 
-<img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/pulse.gif' alt='Pulse' width="90px" height="90px"/>  | Pulse 
+<img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/blinking_eyes.gif' alt='Blinking Eyes' width="90px" height="90px"/>  | Blinking Eyes 
+<img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/bars.gif' alt='Bars' width="90px" height="90px"/>  | Bars 
 
 
 
