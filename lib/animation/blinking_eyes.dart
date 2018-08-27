@@ -45,19 +45,18 @@ class BlinkingEyesState extends State<BlinkingEyes>
 
   @override
   Widget build(BuildContext context) {
-    double circleSize = widget.size * 0.4;
+    double circleSize = widget.size * 0.65;
 
     return new Center(
       child: new Container(
-        height: widget.size,
-        width: widget.size,
-        // decoration: new BoxDecoration(color: Colors.blueGrey),
+        //decoration: new BoxDecoration(color: Colors.blueGrey),
         child: new Center(
             child: RotatedBox(
           quarterTurns: 2,
           child: new Transform(
               transform: Matrix4.identity()..scale(1.0, _sizeAnimation.value),
               child: new Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   getCircle(circleSize, widget.color),
                   getCircle(circleSize, widget.color),
@@ -76,7 +75,7 @@ class BlinkingEyesState extends State<BlinkingEyes>
   }
 
   Widget getCircle(double height, Color c) {
-    var circleSize = height * 0.4;
+    var circleSize = height * 0.36;
     return new Padding(
         padding: EdgeInsets.all(5.0),
         child: Stack(
