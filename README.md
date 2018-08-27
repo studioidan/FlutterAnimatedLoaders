@@ -39,8 +39,7 @@ import 'package:flutter_animated_loaders/flutter_animated_loaders.dart';
 
 Loader name | Preview | Usage | Comments
 ------------     |   -------------   |    ------------    |    ------------
-Pulse    | <img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/pulse.gif' alt='Pulse' width="90px" height="90px"/> | FlutterLoaders.pulse( <br>
-              Icon( <br>
+Pulse    | <img src='https://github.com/studioidan/FlutterAnimatedLoaders/blob/master/art/pulse.gif' alt='Pulse' width="90px" height="90px"/> | FlutterLoaders.pulse(<br>Icon(<br>
                 Icons.check_circle, <br>
                 color: Colors.blue, <br>
                 size: 50.0, <br>
