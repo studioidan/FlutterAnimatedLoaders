@@ -37,9 +37,14 @@ import 'package:flutter_animated_loaders/flutter_animated_loaders.dart';
  ## this table will make your life mutch easier...
 
 
-Loader name | Preview | Usage
-------------     |   -------------   |    ------------
-RotatingPlane    | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/RotatingPlane.gif' alt='RotatingPlane' width="90px" height="90px"/> | some code
+Loader name | Preview | Usage | Comments
+------------     |   -------------   |    ------------    |    ------------
+RotatingPlane    | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/RotatingPlane.gif' alt='RotatingPlane' width="90px" height="90px"/> | some code | comments
+
+RotatingPlane    | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/RotatingPlane.gif' alt='RotatingPlane' width="90px" height="90px"/> | some code | comments
+
+RotatingPlane    | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/RotatingPlane.gif' alt='RotatingPlane' width="90px" height="90px"/> | some code | comments
+
 
 
 ## Getting Started
