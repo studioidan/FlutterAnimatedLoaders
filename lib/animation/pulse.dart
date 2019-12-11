@@ -26,6 +26,17 @@ class PulseLoaderState extends State<PulseLoader>
   Animation _scaleAnimation1, _scaleAnimation2, _scaleAnimation3;
 
   @override
+  void dispose() {
+    _controller1.dispose();
+    _controller2.dispose();
+    _controller3.dispose();
+    _alphaController1.dispose();
+    _alphaController2.dispose();
+    _alphaController3.dispose();
+    super.dispose();
+  }
+
+  @override
   void initState() {
     super.initState();
 
