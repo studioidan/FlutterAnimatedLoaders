@@ -14,6 +14,12 @@ class FourBallsState extends State<FourBalls> with TickerProviderStateMixin {
   Animation _animation1, _animation2;
 
   @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
   void initState() {
     super.initState();
     var mult = 0.5;

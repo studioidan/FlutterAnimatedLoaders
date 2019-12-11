@@ -17,6 +17,12 @@ class ZigZagState extends State<ZigZag> with TickerProviderStateMixin {
   Animation _animation1;
 
   @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
   void initState() {
     super.initState();
 
